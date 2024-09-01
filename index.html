@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DEECEE</title>
+    <link rel="stylesheet" href="">
+    <!-- css link   -->
+    <link rel="stylesheet" href="/css/main.css" type="text/css" />
+    <!-- css link   -->
+
+    <!-- Media Query link   -->
+    <link rel="stylesheet" href="/css/media-queries.css" type="text/css" />
+
+    <!-- Media Query link   -->
+
+    <link rel="stylesheet" href="/animation.css">
+
+    <!--boxicons  link   -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--boxicons  link   -->
+
+    <!--Google Font  link   -->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+        @keyframes draw {
+          from {
+            stroke-dashoffset: 1000;
+          }
+          to {
+            stroke-dashoffset: 0;
+          }
+        }
+      
+        @keyframes fadeIn0 {
+          0% {
+            opacity: 0;
+          }
+          100% {
+            opacity: 1;
+          }
+        }
+      
+        @keyframes slideIn {
+          from {
+            transform: translateX(-100%);
+          }
+          to {
+            transform: translateX(0);
+          }
+        }
+        @keyframes slideRightToLeft {
+      from {
+        transform: translateX(100%); /* Start from the right side, outside the viewport */
+      }
+      to {
+        transform: translateX(0); /* End at the original position */
+      }
+    }
+
+    @keyframes slideLeftToRight {
+  from {
+    transform: translateX(-100%); /* Start from the left side, outside the viewport */
+  }
+  to {
+    transform: translateX(0); /* End at the original position */
+  }
+}
+.slideLeftToRight {
+  animation: slideLeftToRight 1s ease-out;
+}
+
+
+    .slideRightToLeft {
+      animation: slideRightToLeft 1s ease-out;
+    }
+
+        .slide-in {
+          animation: slideIn 0.5s ease-out;
+        }
+      
+        .fadeIn0 {
+          animation: fadeIn0 1s ease-in;
+        }
+      </style>
+    <!--Google Font  link   -->
+  </head>
+  <body class="fadeIn0">
+    <!-- Header section   -->
+
+    <header>
+      <nav class="top-header">
+        <div class="">
+          <i class="bx bxs-phone"></i>
+          <h3>011-40848482</h3>
+        </div>
+        <ul>
+          <li>Blog</li>
+          <li>Career</li>
+          <li>FAQs</li>
+        </ul>
+      </nav>
+
+      <nav class="navigation-Bar">
+        <div class="logo">
+          <img
+            src="/accets/images/b12e2398ba4a5bc748c0465a80a857c6.png"
+            alt=""
+          />
+        </div>
+        <ul>
+          <li>
+            <a href="#"><i class="bx bxs-home"></i></a>
+          </li>
+          <li><a href="#">Courses Offered</a></li>
+          <li><a href="#">Join our Live Classes</a></li>
+          <li><a href="#">Free Videos</a></li>
+          <li><a href="#">Study Material</a></li>
+        </ul>
+        <!-- <button>
+                Contact Us
+            </button> -->
+        <div class="contact-us">Contact Us</div>
+        <div class="menu-icon slideIn">
+          <i class="bx bx-menu-alt-right drop-down-menu"></i>
+          <ul>
+            <li>
+              <a href="#"><i class="bx bxs-home"></i></a>
+              
+            </li>
+            <li><a href="#">Courses Offered</a></li>
+            <li><a href="#">Join our Live Classes</a></li>
+            <li><a href="#">Free Videos</a></li>
+            <li><a href="#">Study Material</a></li>
+          </ul>
+        </div>
+       
+      </nav>
+      
+    </header>
+
+    <!-- Header section   -->
+  
+
+    
+    <!-- Hero section   -->
+
+    <section class="hero">
+
+      <div class="right ">
+        <div class="top "></div>
+        <div class="E3BD78 slideRightToLeft"></div>
+        <div class="inner-top slideRightToLeft"></div>
+        <img class="hero-image slideRightToLeft" src="/accets/images/heroImage.png" alt="Hero Image" />
+    </div>
+      <div class="hero-left slideLeftToRight">
+        <h4>Premium Course</h4>
+        <h2>The early birds batch</h2>
+        <h6>Class - 12, session 2023 - 24</h6>
+        <h1>Accountancy</h1>
+      </div>
+      <div class="hero-footer slideLeftToRight">
+        <div class="item">
+          <i class="bx bx-check"></i>
+          <h4>Complete Syllabus</h4>
+        </div>
+        <div class="item">
+          <i class="bx bx-check"></i>
+          <h4>Revision</h4>
+        </div>
+        <div class="item">
+          <i class="bx bx-check"></i>
+          <h4>Doubt Support</h4>
+        </div>
+      </div>
+
+      <div class="hero-footer1 slideLeftToRight">
+        <div class="item">
+          <i class="bx bx-check"></i>
+          <h4>Test Series</h4>
+        </div>
+        <div class="item">
+          <i class="bx bx-check"></i>
+          <h4>PDF Notes</h4>
+        </div>
+      </div>
+      <div class="hero-curosals">
+        <div class="curosal1"></div>
+        <div class="curosal"></div>
+        <div class="curosal"></div>
+        <div class="curosal"></div>
+      </div>
+    </section>
+
+    <!-- Hero section   -->
+    <!-- second  section   -->
+    <section class="second">
+      <div class="second-top">
+        <img src="/accets/Svgs/aGirl.svg" alt="Description of SVG" />
+
+        <h1>
+          Students love us. Choose excellence. Choose success. Choose DeeCee.
+        </h1>
+      </div>
+      <div class="second-bottom">
+        <div class="box" style="background-color: #7df1b946">
+          <h3>Views</h3>
+          <h1>500M <i class="bx bx-plus"></i> <span> Views </span></h1>
+        </div>
+
+        <div class="box" style="background-color: #84bff23e">
+          <h3>Happy Learners</h3>
+          <h1>2M <i class="bx bx-plus"></i> <span> andCounting </span></h1>
+        </div>
+        <div class="box" style="background-color: #ffbe4633">
+          <h3>Total Classes Watch Time</h3>
+          <h1>1.8M <i class="bx bx-plus"></i> <span> Minutes </span></h1>
+        </div>
+
+        <div class="box" style="background-color: #ff9f8c48">
+          <h3>Questions Solved</h3>
+          <h1>1Lac <i class="bx bx-plus"></i> <span> </span></h1>
+        </div>
+      </div>
+    </section>
+    <!-- second  section   -->
+
+    <!-- why deecee -->
+    <section class="why-deecee">
+      <div class="circle"></div>
+      <img src="/accets/Svgs/UserLap.svg" class="user" alt="" />
+      <img src="/accets/Svgs/flow.svg" alt="" class="flow" />
+      <div class="text">
+        <h1>Why DeeCee?</h1>
+        <p>
+          Since its inception in 2021, DeeCee has been dedicated to guiding
+          students towards excellence in their commerce subjects. From humble
+          beginnings in a small room, this initiative by Rajat Sir has
+          flourished into a dynamic educational force, now reaching over 2
+          million learners through our innovative app and engaging YouTube
+          channels.
+        </p>
+
+        <p>
+          Our commitment to delivering concise and impactful content has
+          propelled countless students to achieve remarkable success in their
+          Class 12 Examinations, securing placements in prestigious universities
+          across the nation. Our streamlined content delivery methodology has
+          paved the way for their achievements.
+        </p>
+        <div class="contact-us">Read me</div>
+      </div>
+    </section>
+
+    <!-- why deecee -->
+
+    <!-- why possibilities -->
+    <section class="possibilities">
+      <h1>
+        Join us at DeeCee, where educational <br />
+        excellence meets limitless possibilities.
+      </h1>
+      <div class="container">
+        <div class="box">
+          <div class="content-left">
+            <img src="/accets/Svgs/one.svg" alt="Course Revisions Icon" />
+            <div class="text">
+              <h3>
+                Master Every Detail: <span>Comprehensive Course Revisions</span>
+              </h3>
+              <p>
+                Our commitment to excellence includes multiple course revisions
+                and dedicated support classes. Our goal? Ensuring students
+                achieve mastery of every detail.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <img src="/accets/Svgs/arrowRight.svg" class="left" alt="" />
+          <div class="content-right">
+            <img src="/accets/Svgs/two.svg" alt="Course Revisions Icon" />
+            <div class="text">
+              <h3>
+                Unlimited Access:
+                <span> Recorded Lectures for Seamless Revisions</span>
+              </h3>
+              <p>
+                Gain unlimited viewing access to recorded live classes within
+                the app. Seamlessly revise, reinforcing a strong grasp on
+                concepts whenever and wherever you choose.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="content-left">
+            <img src="/accets/Svgs/three.svg" alt="Course Revisions Icon" />
+            <div class="text">
+              <h3>
+                Disciplined Evaluation:
+                <span> Testing for Progress</span>
+              </h3>
+              <p>
+                Progress through regular topic, unit, and full syllabus tests.
+                Our time-bound assessments reveal strengths and weaknesses, with
+                MCQ tests aligning with competitive exams.
+              </p>
+            </div>
+          </div>
+          <img
+            src="/accets/Svgs/arrowRight.svg"
+            alt=""
+            class=""
+            style="margin-right: 00px; transform: rotateY(180deg)"
+          />
+        </div>
+        <div class="box">
+          <img src="/accets/Svgs/arrowRight.svg" alt="" class="left" />
+          <div class="content-right">
+            <img src="/accets/Svgs/four.svg" alt="Course Revisions Icon" />
+            <div class="text">
+              <h3>
+                Master Every Detail: <span>Comprehensive Course Revisions</span>
+              </h3>
+              <p>
+                Our commitment to excellence includes multiple course revisions
+                and dedicated support classes. Our goal? Ensuring students
+                achieve mastery of every detail.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="content-left">
+            <img src="/accets/Svgs/five.svg" alt="Course Revisions Icon" />
+            <div class="text">
+              <h3>
+                3-Way Doubt Support:
+                <span> Clearing Concepts, Your Way</span>
+              </h3>
+              <p>
+                With 3-way doubt support-call, text, or live doubt classes-we
+                ensure students have complete clarity on all concepts,
+                empowering their learning journey.
+              </p>
+            </div>
+          </div>
+          <img
+            src="/accets/Svgs/arrowRight.svg"
+            alt=""
+            class=""
+            style="margin-right: 00px; transform: rotateY(180deg)"
+          />
+        </div>
+        <div class="box">
+          <img src="/accets/Svgs/arrowRight.svg" alt="" class="left" style="" />
+          <div class="content-right">
+            <img src="/accets/Svgs/six.svg" alt="Course Revisions Icon" />
+            <div class="text">
+              <h3>
+                Guidance Beyond:
+                <span>Regular Mentorship and Counselling</span>
+              </h3>
+              <p>
+                Beyond academics, we offer regular motivational sessions and
+                counseling. We illuminate diverse career paths, guiding students
+                toward informed decisions and success.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- why possibilities -->
+
+    <!--carousel -->
+
+    <section class="carousel">
+      <img src="/accets/Svgs/flow.svg" class="bottom" alt="" />
+      <img src="/accets/Svgs/flow.svg" class="top" alt="" />
+      <div class="content">
+        <h2>What our students say</h2>
+        <h3>Through the Words of Our Community.</h3>
+
+        <div class="testimonials">
+          <div class="testimonial">
+            <p>
+              “Sir when I watch your video I get attached to you. Sir your
+              explanation of chapter are so amazing.”
+            </p>
+            <h4>Jai Shankar Jha</h4>
+          </div>
+          <div class="testimonial">
+            <p>
+              “No words can express my gratitude to you sir. I have never seen
+              any teacher so sweet and kind hearted like you. I always pray to
+              God to keep you healthy you. Love you. You are the best.”
+            </p>
+            <h4>Divyansh Gupta</h4>
+          </div>
+          <div class="testimonial">
+            <p>
+              “Sir when I watch your video I get attached to you. Sir your
+              explanation of chapter are so amazing.”
+            </p>
+            <h4>Komal Bhatt</h4>
+          </div>
+        </div>
+        <div class="carousel-mark">
+          <i class="bx bxs-chevron-left"></i>
+          <div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot" style="background-color: #1a94ff"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+          <i class="bx bxs-chevron-right"></i>
+        </div>
+      </div>
+    </section>
+    <!--carousel -->
+
+    <!--App -->
+
+    <section class="app">
+      <div class="left">
+        <h1>Get the DeeCee App</h1>
+        <p>
+          Learn from the top faculties along with Rajat Sir anytime and anywhere
+          on the DeeCee App
+        </p>
+
+        <div style="display: flex; column-gap: 20px; flex-direction: row">
+          <div class="rectangle">
+            <img
+              src="/accets/Svgs/playstore.svg"
+              style="width: min-content"
+              alt=""
+            />
+            <div class="text" style="display: flex; flex-direction: column">
+              <h3>GET IT ON</h3>
+              <h2>Google Play</h2>
+            </div>
+          </div>
+          <div class="rectangle">
+            <img
+              src="/accets/Svgs/apple.svg"
+              style="width: min-content"
+              alt=""
+            />
+            <div class="text" style="display: flex; flex-direction: column">
+              <h3>Download on the</h3>
+              <h2>App Store</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <img src="/accets/images/phonesmall.jpeg" alt="" class="img1" />
+        <div class="phone"></div>
+        <img src="/accets/images/phaneLarge.jpeg" alt="" class="img2" />
+        <div class="phone2"></div>
+      </div>
+    </section>
+    <!--App -->
+
+    <!--Founder -->
+
+    <section class="founder">
+      <div class="left">
+        <h1>
+            Message from the Founder
+        </h1>
+        <p>
+            I am humbled and overjoyed to stand here today, reflecting on the remarkable journey that has brought us from a humble beginning to a soaring pinnacle. Our story began in 2014, with a single student, a flicker of passion, and a dream to transform education. From that small room in my house, DeeCee took its first step, fueled by determination and a belief in the power of learning.
+        </p>
+        <p>
+            As I reminisce about those early days, I am reminded of the challenges we faced, the late nights spent refining our vision, and the unwavering dedication of our team. Every obstacle we encountered was met with resilience, every setback met with renewed determination. It was a journey of passion, innovation, and a commitment to pushing boundaries.
+        </p>
+        <div style="display: flex; flex-direction: row;align-items: center; ">
+            <button class="btn">Read More</button>
+            <i class='bx bxl-instagram'></i>
+            <i class='bx bxl-linkedin' ></i>
+        </div>
+      </div>
+      <img src="/accets/images/profile.jpeg" alt="">
+    </section>
+    <!--Founder -->
+
+
+    <!--Contact Form -->
+    <section class="contact">
+        <img src="/accets/Svgs/form.svg" alt="">
+        <form>
+            <h1>
+                Request for Callback
+            </h1>
+            <p>
+                Contact us and we will get back to you on your number
+            </p>
+            <div>
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Email Address">
+                <input type="text" placeholder="Mobile">
+                <input type="text" placeholder="Pincode">
+                <select>
+                    <option value="" disabled selected>Select State</option>
+                    <option value="option1">Kerala</option>
+                    <option value="option2">Tamilnadu</option>
+                    <option value="option2">Goa</option>
+                    <option value="option2">Karnadaka</option>
+
+                </select>
+                <select>
+                    <option value="" disabled selected>Program Insert</option>
+                    <option value="option1">CA</option>
+                    <option value="option2">ACCA</option>
+                    <option value="option2">Accountancy</option>
+
+                </select>
+            </div>
+            
+            <textarea name="description" id=""
+            placeholder="Message"
+            cols="30" rows="5"></textarea>
+            
+
+            </textarea>
+            <button>
+                Submit Your Details
+            </button>
+        </form>
+
+        
+    </section>
+
+    <!-- Contact Form -->
+
+    <!-- courses -->
+    <section class="courses">
+        <h3>
+            Popular courses
+        </h3>
+        <div  class="display-courses">
+            <div><img src="/accets/images/course.png" alt="">
+                <p>
+                    THE EARLY BIRDS ACCOUNTANCY CLASS 12 PREMIUM 2023-24
+                </p>
+            </div>
+            <div><img src="/accets/images/course.png" alt="">
+                <p>
+                    THE EARLY BIRDS TRIO BATCH CLASS 12 PREMIUM 2023-2024                </p>
+            </div><div><img src="/accets/images/course.png" alt="">
+                <p>
+                    THE EARLY BIRDS BUSINESS STUDIES CLASS 12 PREMIUM 2023-24                </p>
+            </div><div><img src="/accets/images/course.png" alt="">
+                <p>
+                    THE EARLY BIRDS ECONOMICS CLASS 12 PREMIUM 2023-24                </p>
+            </div>
+           
+
+        </div>
+    </section>
+    
+    <!-- courses -->
+
+    <!-- Footer -->
+
+    <footer>
+        <div class="colspan-4">
+            <img src="/accets/images/b12e2398ba4a5bc748c0465a80a857c6.png" alt="">
+            <p>
+                As we continue our journey, we remain steadfast in our aspiration to uphold the same unwavering quality in educational content. DeeCee is not just about imparting knowledge; it's about nurturing a community of learners and giving back in meaningful ways.
+            </p>
+            <hr>
+            <h2>
+                Reach out to us
+            </h2>
+            <span>
+                <i class='bx bx-envelope'></i>
+                <h3>support@deeceeline.com</h3>
+            </span>
+            <span>
+                <i class='bx bx-phone'></i>
+                <h3>011-40848482</h3>
+            </span>
+            <div style="display: flex; column-gap: 20px; flex-direction: row; color: white;">
+                <div class="rectangle">
+                  <img
+                    src="/accets/Svgs/playstore.svg"
+                    style="width: min-content"
+                    alt=""
+                  />
+                  <div class="text" style="display: flex; flex-direction: column">
+                    <h3>GET IT ON</h3>
+                    <h2 style="color: white;">Google Play</h2>
+                  </div>
+                </div>
+                <div class="rectangle" >
+                  <img
+                    src="/accets/Svgs/apple.svg"
+                    style="width: min-content"
+                    alt=""
+                  />
+                  <div class="text" style="display: flex; flex-direction: column">
+                    <h3>Download on the</h3>
+                    <h2 style="color: white;">App Store</h2>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="colspan-2 lists">
+            <h3>
+                Quick links
+            </h3>
+            <ul class="navigation">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses Offered</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#live-classes">Join our Live Classes</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#free-videos">Free Videos</a></li>
+                <li><a href="#study-material">Study Material</a></li>
+                <li><a href="#careers">Hiring/Careers</a></li>
+                <li><a href="#faqs">FAQs</a></li>
+            </ul>
+            
+        </div>
+        <div class="colspan-3 lists">
+            <h3>
+                Our Youtube Channels
+            </h3>
+            <ul class="content-list">
+                <li><a href="/raja-arora" target="_blank">Rajat Arora</a></li>
+                <li><a href="/raja-arora-talks" target="_blank">Rajat Arora Talks</a></li>
+                <li><a href="/raja-arora-shorts" target="_blank">Rajat Arora Shorts</a></li>
+                <li><a href="/raja-arora-isc-state-boards" target="_blank">Rajat Arora ISC and State Boards</a></li>
+                <li><a href="/raja-arora-ug-professional-courses" target="_blank">Rajat Arora UG and Professional Courses</a></li>
+                <li><a href="/raja-arora-cuet-entrance-exams" target="_blank">Rajat Arora CUET and Entrance Exams</a></li>
+                <li><a href="/raja-arora-tet" target="_blank">Rajat Arora TET</a></li>
+                
+
+            </ul>
+            
+            
+        </div>
+        <div class="colspan-2 lists">
+            <h3>
+                Help & Support
+            </h3>
+            <ul class="footer-links">
+                <li><a href="/terms-of-use" target="_blank">Terms of Use</a></li>
+                <li><a href="/site-map" target="_blank">Site Map</a></li>
+                <li><a href="/refund-policy" target="_blank">Refund Policy</a></li>
+            </ul>
+            <h3>
+                Find us on
+            </h3>
+ <ul class="social-links">
+    <li><a href="https://www.youtube.com" target="_blank" aria-label="YouTube"><i class='bx bxl-youtube' style="color: red;" ></i>YouTube</a></li>
+    <li><a href="https://www.instagram.com" target="_blank" aria-label="Instagram"><i class='bx bxl-instagram' style="color: #D46A43;" ></i>Instagram</a></li>
+    <li><a href="https://www.facebook.com" target="_blank" aria-label="Facebook"><i class='bx bxl-facebook-circle' style="color: #1976D2;" ></i>Facebook</a></li>
+    <li><a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn"><i class='bx bxl-linkedin' style="color:#01539D;" ></i>LinkedIn</a></li>
+</ul>
+           
+        </div>
+    </footer>
+    
+    <!-- Footer -->
+
+
+
+  </body>
+</html>
+
+<script src="/script.js"></script>
